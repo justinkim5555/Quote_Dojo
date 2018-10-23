@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Quoting Dojo</title>
+    <style>
+    .wrapper{
+    background: #1D976C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+    </style>
+  </head>
+  <body>
+  <div class="wrapper">
+  <h1> Welcome to Quoting Dojo</h1>
+  <form method="post" action="/quotes">
+
+    <label for="name">Your Name:</label>
+    <input type='text' name="name"></input>
+    <br>
+    <label for name="quote">Your Quote</label>
+    <input type='text' name="quote"></input>
+
+    <br>
+
+    <button type="submit">Add My Quote</button>
+
+
+  </form>
+
+    <a href="/survey"><button> Skip My Quote </button></a>
+  </div>
+
+
+  </body>
+</html>
